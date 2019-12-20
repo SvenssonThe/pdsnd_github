@@ -5,7 +5,7 @@ Nov 2019
 Bikeshare project
 
 ### Description
-Script that helps you explore bikeshare data from three cities by providing functions to calculate statistics about the different datasets.
+Script that helps you explore bikeshare data from three cities by providing functions to calculate statistics about the different datasets. The three cities are the following; New York City, Chicago and Washington.
 
 ### Files used
 washington.csv
