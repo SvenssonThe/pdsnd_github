@@ -61,8 +61,8 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
-    month=months.index(month)+1
-    df=df[df['month']==month]
+    #month=months.index(month)+1
+    df=df[df['month']==(months.index(month)+1)]
     df = df[df['day_of_week'] == day.title()]
     return df
 
