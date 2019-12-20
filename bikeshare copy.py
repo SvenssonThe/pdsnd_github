@@ -159,8 +159,8 @@ def passenger_stats(df,city):
         accum_age=0
         agelist=[]
         mean_birth_year=df['Birth Year'].mean()
-        age=today.year - mean_birth_year
-        print('The avarage age for passengers travelling during this period in this region is {0:.0f} years'.format(age))
+        #age=today.year - mean_birth_year
+        print('The avarage age for passengers travelling during this period in this region is {0:.0f} years'.format(today.year - mean_birth_year))
 
 
 def main():
